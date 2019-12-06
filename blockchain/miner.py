@@ -17,7 +17,6 @@ def proof_of_work(last_proof):
     start = timer()
 
     print("Looking for next proof")
-    proof = 0
     proof = 1000000 
     #  TODO: Your code here
     last_hash = hashlib.sha256(f'{last_proof}'.encode()).hexdigest()
